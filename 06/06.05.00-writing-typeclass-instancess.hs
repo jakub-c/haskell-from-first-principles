@@ -23,7 +23,7 @@ instance Eq DayOfWeek where
 instance Eq Date where
   (==) (Date weekday dayOfMonth)
        (Date weekday' dayOfMonth') =
-      weekday == weekday' && dayOfMonth == dayOfMonth
+      weekday == weekday' && dayOfMonth == dayOfMonth'
 
 -- 1
 data TisAnInteger = TisAn Integer deriving (Show)
